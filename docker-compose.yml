@@ -1,0 +1,17 @@
+
+version: "3"
+
+services:
+  backend:
+    build: ./src
+    container_name: "backendPegas"
+    env_file:
+      - ./src/.env
+  frontend:
+    container_name: 'frontendPegas'
+    build: ./public_html
+    ports:
+      - "80:80"
+    volumes:
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+      - ./public_html:/usr/share/nginx/html
