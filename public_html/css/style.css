@@ -185,6 +185,7 @@ h2:after {
 .meals-showroom {
     list-style: none;
     width: 100%;
+
 }
 
 .meals-showroom li {
@@ -213,7 +214,7 @@ h2:after {
 }
 
 /********** section-steps ************/
-
+/*
 .steps-box {
     text-align: right;
     margin-right: 3%;
@@ -252,11 +253,10 @@ h2:after {
     height: 50px;
     width: auto;
     margin-right: 10px;
-}
+}*/
 /************section testemonials ******/
-.section-testemonials {
-    background-color: #cccccc;
-}
+
+
 blockquote {
     padding: 2%;
     font-style: italic;
@@ -280,8 +280,12 @@ cite img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../documentation/img/1.jpg);
     background-size: cover;
     background-attachment: fixed;
+    padding: 4rem 0;
+    margin-top: 4rem;
 }
-
+.section-plans h2 {
+    color: white;
+}
 .plan-box {
     background-color: white;
     border-radius: 5px;
@@ -400,7 +404,7 @@ footer {
 }
 
 footer p {
-    color: #edecec;
+    color: #5c5a5a;
     text-align: center;
     font-size: 90%;
     margin-top: 20px;
