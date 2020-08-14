@@ -355,37 +355,21 @@ input[type=checkbox] {
 /********Footer **/
 footer {
     background-color: #edecec;
-    padding: 30px;
-    font-size: 22px;
+    padding: 0 30px 30px    ;
+
 }
 
-.footer-nav {
-    list-style: none;
-    float: left;
+.footer-nav p{
+    text-align: left;
+    font-size: 24px;
+    padding-top: 0.5rem;
+
 }
 .social-links {
-    list-style: none;
     float: right;
 }
-.footer-nav li,
-.social-links li {
-    display: inline-block;
-    margin-right: 20px;
-}
-.footer-nav li:last-child,
-.social-links li:last-child {
-    margin-right: 0;
-}
-.footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited {
-    color: #056c09;
-    text-decoration: none;
-    border: 0;
-    transition: 0.2s;
 
-}
+
 
 .footer-nav li a:hover,
 .footer-nav li a:active {
@@ -400,12 +384,12 @@ footer {
 }
 .fa, .fas {
     color: #056c09;
-    margin: 0 0.5rem;
+    padding-left: 0.2rem;
 }
 
-footer p {
+.footer-note {
     color: #5c5a5a;
     text-align: center;
-    font-size: 90%;
+    font-size: 110%;
     margin-top: 20px;
 }

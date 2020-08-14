@@ -17,10 +17,9 @@
     <nav>
         <div class="row">
             <ul class="main-nav">
-                <li><a href="#">Food Menu</a></li>
-                <li><a href="#">How to order</a></li>
-                <li><a href="#">Our location</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="#menu">Food Menu</a></li>
+                <li><a href="#action">How we work</a></li>
+                <li><a href="#sign">Sign up</a></li>
 
             </ul>
         </div>
@@ -35,7 +34,7 @@
 </header>
 <section class="section-features">
 
-    <div class="row">
+    <div class="row" id="action">
         <h2>Get food fast &mdash; not fast food</h2>
         <p class="long-copy">Hello, we are Pegas Food, your new premium food delivery service. We know you are always
             busy. No time for cooking. So let us take care of that, we are really good at it, we promise!
@@ -76,7 +75,7 @@
         </div>
     </div>
 </section>
-<section class="section-meals">
+<section id="menu" class="section-meals">
     <ul class="meals-showroom clearfix">
         <li>
             <figure class="meals-photo">
@@ -173,7 +172,7 @@
         </div>
     </div>
 </section>
-<section class="section-plans">
+<section id="sign" class="section-plans">
     <div class="row">
         <h2>Start eating healthy today</h2>
     </div>
@@ -242,7 +241,7 @@
 </section>
 <section class="section-form">
     <div class="row">
-        <h2>We're happy to hear from you</h2>
+        <h2>I am happy to hear from you</h2>
     </div>
     <div class="row">
         <form action="./apis/" id="contact" method="post" novalidate class="contact-form container">
@@ -264,20 +263,6 @@
                     <input type="email" name="email" id="email" placeholder="Your email" required>
                 </div>
             </div>
-            <!--<div class="row">
-                <div class="col span-1-of-3">
-                    <label>How did you find us?</label>
-                </div>
-                <div class="col span-2-of-3">
-                    <label for="find-us"></label>
-                    <select name="find" id="find-us">
-                        <option value="friends">Friends</option>
-                        <option value="search" selected>Search engine</option>
-                        <option value="ad">Advertisement</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-            </div>-->
             <div class="row">
                 <div class="col span-1-of-3">
                     <label>Drop us a line</label>
@@ -296,7 +281,7 @@
                     <input type="submit" value="Send it!">
                 </div>
             </div>
-            <div class="g-recaptcha mt-4" data-sitekey="6Lc2EL4ZAAAAANZjc-0aeSJrJ-g2rkn7Quh2_S3k"></div>
+            <div class="g-recaptcha mt-4" data-sitekey="6Lccn74ZAAAAAG7Qjagu8L3xak6i7K99sh7pst90"></div>
         </form>
         <div class="container mt-4 ml-2">
             <div class="row">
@@ -308,22 +293,20 @@
 </section>
 <footer>
     <div class="row">
-        <div class="col span-1-of-2">
-            <ul class="footer-nav">
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Moldova project</a></li>
-                <li><a href="#">Murals project</a></li>
-            </ul>
-        </div>
-        <div class="col span-1-of-2">
-            <ul class="social-links">
-                <li><a href="#"><i class="fa fa-linkedin fa-2x p-2"></i></a></li>
-
-            </ul>
+        <div class="col span-5-of-6">
+            <div class="footer-nav">
+                <h3>Other projects</h3>
+                <p>About Andrei Hristian:
+                    <a href="https://devandrei.com/">www.devandrei.com</a></p>
+                <p>ABQMurals:
+                    <a href="#">www.abqmurals.net</a></p>
+                <p>Discover Moldova:
+                    <a href="#">www.devmoldova.com</a></p>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <p>Copyright &copy; 2020 by Andrei Hristian. All rights reserved.</p>
+    <div class="row footer-note">
+        <p>Website created by Andrei Hristian 2020.  <a href="#"><i class="fa fa-linkedin fa-2x px-2"></i></a></p>
     </div>
 </footer>
 
